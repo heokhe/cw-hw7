@@ -1,0 +1,36 @@
+.about-me {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  border-radius: 100%;
+  aspect-ratio: 1 / 1;
+  max-width: 400px;
+  box-shadow: 0 30px 80px 20px #0002, 0 10px 20px #0003;
+}
+
+.about-me > .info {
+  width: 100%;
+}
+
+.about-me > .info {
+  font-size: 1.5rem;
+  margin-left: 4rem;
+}
+
+.about-me > .info > h1 {
+  font-size: 4.5rem;
+  margin-bottom: 0;
+}
+
+.about-me > .info > :not(h1) {
+  opacity: .75;
+}
+
+.about-me > .info > .subtitle {
+  letter-spacing: .3em;
+  font-size: 0.8em;
+  opacity: 0.5;
+  text-transform: uppercase;
+}

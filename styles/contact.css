@@ -1,0 +1,24 @@
+.contact {
+  text-align: center;
+}
+
+.contact input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input, textarea {
+  font-size: 1em;
+  font-family: inherit;
+  width: 100%;
+}
+
+form {
+  max-width: 350px;
+  margin: 0 auto;
+}

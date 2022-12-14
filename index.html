@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/index.css">
+  <meta name="color-scheme" content="dark">
+</head>
+<body>
+  <nav>
+    <button>About Me</button>
+    <button>My Skills & Acheivements</button>
+    <button>Contact Me</button>
+  </nav>
+  <main class="about-me">
+    <img class="logo" src="logo-on-background.png">
+    <div class="info">
+      <div class="subtitle">About Me</div>
+      <h1>Hosein Khansari</h1>
+      <p>
+        I was born in 2005 in Tehran. I started programming since I was 12 and later on I put my focus mainly on Front-end development.
+        <br>
+        I finished highschool in Allame Helli 5 school in Tehran and now I'm studying Computer Engineering in Sharif Univerity of Technology.
+      </p>
+    </div>
+  </main>
+  <main>
+    <h1>My Skills</h1>
+    <ul>
+      <li>Web development</li>
+      <ul>
+        <li>JS/TS</li>
+        <li>React + Next, Remix</li>
+        <li>Vue</li>
+        <li>etc.</li>
+      </ul>
+      <li>Missing deadlines</li>
+      <li>Wasting huge amounts of time and effort on the first page 🐋</li>
+    </ul>
+    <h1>My Acheivements</h1>
+    <ul>
+      <li>Still alive to this day</li>
+      <li>Made this absolute beauty of a website</li>
+      <li>Quite a few projects you can find on my GitHub</li>
+    </ul>
+  </main>
+  <main class="contact">
+    <h1>Contact me</h1>
+    <form method="POST" action="/contact.php">
+      <input placeholder="Your name" name="name">
+      <input placeholder="Your Email address" name="email">
+      <textarea rows="10" placeholder="Your message" name="message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+  <footer>
+    <a href="mailto:hrk.x11@gmail.com" class="footer-link">
+      <div class="footer-link-main">hrk.x11@gmail.com</div>
+      <div class="footer-link-secondary">Email Address</div>
+    </a>
+    <a href="https://heokhe.t.me" class="footer-link">
+      <div class="footer-link-main">@heokhe</div>
+      <div class="footer-link-secondary">Telegram</div>
+    </a>
+    <a href="https://github.com/heokhe" class="footer-link">
+      <div class="footer-link-main">@heokhe</div>
+      <div class="footer-link-secondary">GitHub</div>
+    </a>
+    <a href="https://stackoverflow.com/users/16376270/heokhe" class="footer-link">
+      <div class="footer-link-main">Stackoverflow</div>
+    </a>
+  </footer>
+</body>
+<script src="./main.js"></script>
+</html>
